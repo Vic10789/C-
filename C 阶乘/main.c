@@ -9,7 +9,11 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int a, i, sum = 1;
+    scanf("%d", &a);
+    for(i = 1; i <= a; i++) {
+        sum=sum*i;
+    }
+    printf("%d\n", sum);
     return 0;
 }
